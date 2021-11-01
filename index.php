@@ -24,12 +24,29 @@ include("header.php");
                 </div> 
                 </form>
 
+            </div>
                
 
-            </div>
         </div>
     </div>
     <!-- Header End -->
+
+    <div class="container-fluid shipping">
+
+        <div class="mx-auto" style="width: 100%; max-width: 600px;">
+                <h3>Track your shipping</h3>
+                <form method="post" action="shipping_result.php" style="padding-top: 5%;">
+                    <div class="input-group">
+    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Shipping Id" name="input" required>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary px-3" name="ship">Track Shipping</button>
+                    </div>
+                </div> 
+                </form>
+
+            </div> 
+        
+    </div>
 
 
 
@@ -46,7 +63,7 @@ include("header.php");
                 </div>
                 <div class="col-lg-7">
                     <h6 class="text-primary text-uppercase font-weight-bold">About Us</h6>
-                    <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1>
+                  
                     <p class="mb-4">LIDZA SAFE KEEPING Logistics limited focuses on solving trade and logistics related problems within the west African market, leveraging on modern technologies and strategic partnership.
 
 At LIZDA we strive to offer consistent quality services to the various international trade framework.With many years of experience in the freight forwarding industry in Ghana. The aim of LIZDA is to provide quality services that hopes to bridge the gap between international trade and logistics.
@@ -165,10 +182,10 @@ By this we empower our clients to take full advantage of the merits that comes w
                 <div class="col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                         <i class="fa fa-2x fa-ship text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Ocean Freight</h6>
+                        <h6 class="text-white font-weight-medium m-0">Mineral Safe Keeping</h6>
                     </div>
                     <p>
-                        We provide excellent documentation to facilitate the exportation of commodities abroad.
+                        We provide excellent storage infrastructure for all your land minerals.
 
 </p>
                     <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->

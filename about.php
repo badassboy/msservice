@@ -30,13 +30,23 @@ include("header.php");
                 </div>
                 <div class="col-lg-7">
                     <h6 class="text-primary text-uppercase font-weight-bold">About Us</h6>
-                    <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1>
-                    <p class="mb-4">                    <p class="mb-4">LIDZA SAFE KEEPING Logistics limited focuses on solving trade and logistics related problems within the west African market, leveraging on modern technologies and strategic partnership.
+                    <!-- <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1> -->
 
-At LIZDA we strive to offer consistent quality services to the various international trade framework.With many years of experience in the freight forwarding industry in Ghana. The aim of LIZDA is to provide quality services that hopes to bridge the gap between international trade and logistics.
+                    <p class="mb-4">
+                        OUR APPROACH<br>
+Lizdan Company offers a uniquely consultative approach to purchasing and selling physical gold and silver, regardless of how much you are looking to invest. We pride ourselves on our simple and tailored strategy, working with beginners and experienced investors alike, to find the precious metal investment that will benefit them most.Whether you are looking to convert personal savings or part of your pension into physical gold or silver, we can provide a tax-efficient solution. In addition, our Buy Back Guarantee means your gold and silver investment is as liquid as the cash in your bank account
+                    </p>
 
-By this we empower our clients to take full advantage of the merits that comes with international trade within the framework of customs laws and trade financing. Our believe at LIDZA is that, irrespective of the origin/destination or weight/seize of a consignment/parcel, their movement either within or across international borders should be done in a cost-efficient manner.
-</p>
+                    <p class="mb-4">
+                      DEDICATED EXPERTS<br>
+Our in-house specialists hold qualifications in Law, Accountancy, Investment Banking and Property and use their broad and extensive knowledge to deliver practical and tax-efficient solutions for our clients.   
+                    </p>
+
+                    <p class="mb-4">
+                       OUR CREDENTIALS<br>
+Lizdan Company has quickly established itself as a trusted market leader. We are members of the Royal Numismatic Association, British Numismatic Association, British Chamber of Commerce and the Information Commissioner, as well as being frequently featured in the Press including FT, Daily Mail, Reuters, WSJ, Money Week, Observer, Guardian, Your Money and others. 
+                    </p>
+
                     <div class="d-flex align-items-center pt-2">
 
                     </div>

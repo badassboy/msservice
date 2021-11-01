@@ -6,21 +6,19 @@ include("functions.php");
 
 $activity = new Activities();
 
-if (isset($_POST['search'])) {
+if (isset($_POST['ship'])) {
 
-    $item = $_POST['user_input'];
+    $item = $_POST['input'];
 
-    $display = $activity->user_search($item);
+    $display = $activity->shipping_seach($item);
 
     if (count($display)>0) {
     	
     	foreach ($display as $value) {
-    		$item_name = $value['item'];
-    		$item_depositor = $value['depositor'];
-    		$item_next_of_kin = $value['next_of_kin'];
-    		$item_serial_number = $value['serial_number'];
-    		$item_weight = $value['weight'];
-    		$tracking_date = $value['tracked_date'];
+    		$shipping_date = $value['shipping_date'];
+            $current_location = $value['current_location'];
+            $address = $value['destination_address'];
+    		
     	}
     }
 
@@ -45,29 +43,25 @@ if (isset($_POST['search'])) {
 <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid mb-5">
         <div class="container text-center py-5">
-            <h1 class="text-white display-3">Service</h1>
+            <h1 class="text-white display-3">SHIPPING DETAILS</h1>
             <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
+                <!-- <p class="m-0"><a class="text-white" href="">Home</a></p>
                 <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Service</p>
+                <p class="m-0">Service</p> -->
             </div>
         </div>
     </div>
     <!-- Header End -->
 	
 
-    
+   
    		<ul class="list-group">
-  <li class="list-group-item">Item Deposited: <?php echo $item_name; ?></li>
-  <li class="list-group-item">Depositor: <?php echo $item_depositor; ?></li>
-  <li class="list-group-item">Next of Kin: <?php echo $item_next_of_kin; ?></li>
-  <li class="list-group-item">Serial Number:<?php echo $item_serial_number; ?></li>
-  <li class="list-group-item">Weight:<?php echo $item_weight; ?></li>
-  <li class="list-group-item">Date:<?php echo $tracking_date; ?></li>
+  <li class="list-group-item">Shipping Date: <?php echo $shipping_date ?></li>
+  <li class="list-group-item">Current Location: <?php echo $current_location; ?></li>
+  <li class="list-group-item">Destionation Address: <?php echo $address; ?></li>
 </ul>
     
-    
-  
+ 
 
 	
 

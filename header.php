@@ -4,10 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FASTER - Logistics Company Website Template</title>
+    <title>LIZDAN SECURITY &LOGISTICS</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Gold security ware house" name="LIZDAN SECURITY">
+    <meta content="Best logistics company ever" name="LIZDAN LOGISTICS">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -65,14 +65,22 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 display-5 text-uppercase text-primary"><i class="fa fa-truck mr-2"></i>LIZDAN SECURITY</h1>
-            </a>
+
+               
+                    <h4 class="m-0 display-5 text-uppercase text-primary">
+                        <img src="img/logo2.jpeg" width="170" height="170" alt="" style="margin-right: 5%;">
+    LIZDAN LOGISTICS & SECURITY COMPANY
+                    </h4>
+                    
+                    
+  </a>
+
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="index.php" class="nav-item nav-link">Home</a>
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link">Service</a>
 
