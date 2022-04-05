@@ -10,16 +10,16 @@ include("header.php");
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid mb-5">
         <div class="container text-center py-5">
-            <h1 class="text-primary mb-4">LIZDAN SECURITY & LOGISTICS COMPANY</h1>
-            <h3 class="text-white display-3 mb-5">Logistics Services</h3>
+            <h1 class="text-primary mb-4">MS SERVICE & TRADE CONSULT</h1>
+            <h5 class="text-white display-5 mb-4">IT Solution,Music Production & General Trading</h5>
            
             <div class="mx-auto" style="width: 100%; max-width: 600px;">
 
-                <form method="post" action="results.php">
+                <form method="post" action="shipping_result.php">
                     <div class="input-group">
-    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tracking Id" name="user_input" required>
+    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tracking Number" name="user_input" required>
                     <div class="input-group-append">
-                        <button class="btn btn-primary px-3" name="search">Track & Trace</button>
+    <button type="submit" class="btn btn-primary px-3" name="search">Track & Trace</button>
                     </div>
                 </div> 
                 </form>
@@ -31,22 +31,22 @@ include("header.php");
     </div>
     <!-- Header End -->
 
-    <div class="container-fluid shipping">
+    <!-- <div class="container-fluid shipping">
 
         <div class="mx-auto" style="width: 100%; max-width: 600px;">
                 <h3>Track your shipping</h3>
                 <form method="post" action="shipping_result.php" style="padding-top: 5%;">
                     <div class="input-group">
-    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Shipping Id" name="input" required>
+    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tracking Number" name="input" required>
                     <div class="input-group-append">
-                        <button class="btn btn-primary px-3" name="ship">Track Shipping</button>
+                        <button type="submit" class="btn btn-primary px-3" name="ship">Track Shipping</button>
                     </div>
                 </div> 
                 </form>
 
             </div> 
         
-    </div>
+    </div> -->
 
 
 
@@ -56,7 +56,7 @@ include("header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/photo.avif" alt="">
 <!--                     <div class="bg-primary text-dark text-center p-4">
                         <h3 class="m-0">25+ Years Experience</h3>
                     </div> -->
@@ -64,11 +64,7 @@ include("header.php");
                 <div class="col-lg-7">
                     <h6 class="text-primary text-uppercase font-weight-bold">About Us</h6>
                   
-                    <p class="mb-4">LIDZA SAFE KEEPING Logistics limited focuses on solving trade and logistics related problems within the west African market, leveraging on modern technologies and strategic partnership.
-
-At LIZDA we strive to offer consistent quality services to the various international trade framework.With many years of experience in the freight forwarding industry in Ghana. The aim of LIZDA is to provide quality services that hopes to bridge the gap between international trade and logistics.
-
-By this we empower our clients to take full advantage of the merits that comes with international trade within the framework of customs laws and trade financing. Our believe at LIDZA is that, irrespective of the origin/destination or weight/seize of a consignment/parcel, their movement either within or across international borders should be done in a cost-efficient manner.
+                    <p class="mb-4">We enable investors to purchase bullion they physically hold, as opposed to merely owning on paper. Since our founding, we have been the industry price leader and continue to exceed expectations through our weekly sales, fast shipping, and award-winning service. Our corporate headquarters and contact center is located in Accra Ghana , Further more our team help solve all It solutions that individual and companies may need , while our studio help produce any kind of music or sound needs by Artists, Artist managers and records labels and all It related Trading
 
 
 
@@ -110,9 +106,9 @@ By this we empower our clients to take full advantage of the merits that comes w
             <div class="row align-items-center">
 
                 <div class="col-lg-7 py-5 py-lg-0">
-                    <h6 class="text-primary text-uppercase font-weight-bold">Get A Quote</h6>
-                    <h1 class="mb-4">Request A Free Quote</h1>
-                    <p class="mb-4">Submit your details and lets get your an estimate of your shipping cost.We hope to get in touch with you ASAP</p>
+                    <h3 class="text-primary text-uppercase font-weight-bold">General Trading</h3>
+                    <!-- <h1 class="mb-4">Request A Free Quote</h1> -->
+                    <p class="mb-4">Looking for gold bars to buy? Worry no more as we're help to help you.</p>
                     <div class="row">
                         <div class="col-sm-4">
                             <h1 class="text-primary mb-2" data-toggle="counter-up">225</h1>
@@ -130,8 +126,9 @@ By this we empower our clients to take full advantage of the merits that comes w
                 </div>
 
                 <div class="col-lg-5">
-                    <div class="bg-primary py-5 px-4 px-sm-5">
-                        <form class="py-5">
+                    <!-- <div class="bg-primary py-5 px-4 px-sm-5"> -->
+                        <img src="img/gold.jpg">
+                        <!-- <form class="py-5">
                             <div class="form-group">
                                 <input type="text" class="form-control border-0 p-4" placeholder="Your Name" required="required" />
                             </div>
@@ -149,8 +146,8 @@ By this we empower our clients to take full advantage of the merits that comes w
                             <div>
                                 <button class="btn btn-dark btn-block border-0 py-3" type="submit">Get A Quote</button>
                             </div>
-                        </form>
-                    </div>
+                        </form> -->
+                    <!-- </div> -->
                 </div>
 
             </div>
@@ -164,48 +161,56 @@ By this we empower our clients to take full advantage of the merits that comes w
         <div class="container">
             <div class="text-center pb-2">
                 <h6 class="text-primary text-uppercase font-weight-bold">Our Services</h6>
-                <h1 class="mb-4">Our Logistic Services</h1>
+                <h1 class="mb-4">Our Services</h1>
             </div>
 
-            <div class="row pb-3">
-                <div class="col-lg-3 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                        <i class="fa fa-2x fa-plane text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Air Freight</h6>
-                    </div>
-                    <p>
-                        We provide excellent documentation to facilitate the exportation of commodities abroad.
+            <div class=" pb-3">
 
-</p>
-                    <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
-                </div>
-                <div class="col-lg-3 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                        <i class="fa fa-2x fa-ship text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Mineral Safe Keeping</h6>
-                    </div>
-                    <p>
-                        We provide excellent storage infrastructure for all your land minerals.
+                <ul class="list-group">
+  
 
-</p>
-                    <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
-                </div>
-                <div class="col-lg-3 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                        <i class="fa fa-2x fa-truck text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Land Transport</h6>
-                    </div>
-                    <p>We provide a one stop logistics land transport for either existing or new international manufacturers/suppliers to reach their destination</p>
-                    <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
-                </div>
-                <div class="col-lg-3 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                        <i class="fa fa-2x fa-store text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Cargo Storage</h6>
-                    </div>
-                    <p>We provide fast and competitive clearing of all cargoes. We clear from both the Sea and Air ports.</p>
-                    <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
-                </div>
+ 
+
+  <li class="list-group-item">
+      <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">IT SOLUTION</h5>
+    <p class="card-text"> We provide all kinds of IT Solutions to the general public being Graphic Design,web design, app development and Computer Networking</p>
+    <!-- <a href="#" class="card-link">Minimum: $0</a>
+    <a href="#" class="card-link">Maximum: $250,000</a>
+    <a href="#" class="card-link">Discount: $250,000</a> -->
+  </div>
+</div>
+  </li>
+
+  <li class="list-group-item">
+     <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">MUSIC PRODUCTION</h5>
+    <p class="card-text">We help young and upcoming music artiste with the music production.We deal with video shooting, beat making, studio recording and many more.</p>
+    <!-- <a href="#" class="card-link">Minimum: $0</a>
+    <a href="#" class="card-link">Maximum: $250,000</a>
+    <a href="#" class="card-link">Discount: $250,000</a> -->
+  </div>
+</div> 
+  </li>
+
+  <li class="list-group-item">
+      <div class="card-body">
+    <h5 class="card-title">GENERAL TRADING</h5>
+    <p class="card-text">We deal with general buy and sell of wholesale and retails of common foreign and local gooods.</p>
+    <!-- <a href="#" class="card-link">Minimum: $0</a>
+    <a href="#" class="card-link">Maximum: $250,000</a>
+    <a href="#" class="card-link">Discount: $250,000</a> -->
+  </div>
+  </li>
+</ul>
+
+
+
+                
+
+
             </div>
         </div>
     </div>
@@ -217,11 +222,11 @@ By this we empower our clients to take full advantage of the merits that comes w
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/choose.avif" alt="">
                 </div>
                 <div class="col-lg-7 py-5 py-lg-0">
                     <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
-                    <h1 class="mb-4">Faster, Safe and Trusted Logistics Services</h1>
+                    <h1 class="mb-4">Faster, Safe and Trusted  Services</h1>
                     <p class="mb-4">We work tirelessly round the clock with one goal in mind, to exceed the expectations of our clients. By this, we have inspired a positive perception in the minds of our clients of our business.</p>
                     <ul class="list-inline">
                         <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Best In Industry</h6>

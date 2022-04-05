@@ -4,9 +4,9 @@
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <h3 class="text-primary mb-4">Get In Touch</h3>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>26 West dry Greek circle,Suite 452,Littleto</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+44(406)2338318/+1(316)6662141</p>
-                        <p><i class="fa fa-envelope mr-2"></i>info@lizdan.com</p>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>Dome-Kwabenya-Accra,Ghana</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>Box number :WY2483</p>
+                        <p><i class="fa fa-envelope mr-2"></i>info@msservicetradeconsult.com</p>
                         <div class="d-flex justify-content-start mt-4">
                             <!-- <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -28,7 +28,7 @@
             </div>
             <div class="col-lg-5 col-md-6 mb-5">
                 <h3 class="text-primary mb-4">Newsletter</h3>
-                <p>Enter your email address to subscribe to the latest info from LIDZA SAFE KEEPIN COMPANY. We promise not to spam your email</p>
+                <p>Enter your email address to subscribe to the latest info from MS Service & Trade Consult We promise not to spam your email</p>
                 <div class="w-100">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
@@ -43,7 +43,7 @@
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: #3E3E4E !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="#">lizdanlogistics.com</a>. All Rights Reserved. Designed by Cloudsoft Technogies</a>
+                <p class="m-0 text-white">&copy; <a href="#">info@msservicetradeconsult.com</a>. All Rights Reserved. Designed by Cloudsoft Technogies</a>
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">

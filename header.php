@@ -32,9 +32,9 @@
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>+44(406)2338318/+1(316)6662141</small>
+                    <small><i class="fa fa-phone-alt mr-2"></i>+233242573307</small>
                     <small class="px-3">|</small>
-                    <small><i class="fa fa-envelope mr-2"></i>info@lizdan.com</small>
+                    <small><i class="fa fa-envelope mr-2"></i>info@msservicetradeconsult.com</small>
                 </div>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
@@ -68,8 +68,8 @@
 
                
                     <h4 class="m-0 display-5 text-uppercase text-primary">
-                        <img src="img/logo2.jpeg" width="170" height="170" alt="" style="margin-right: 5%;">
-    LIZDAN LOGISTICS & SECURITY COMPANY
+                        <img src="img/logo.jpg" width="170" height="170" alt="" style="margin-right: 5%;">
+    MS SERVICE & TRADE CONSULT
                     </h4>
                     
                     
@@ -83,6 +83,7 @@
                     <a href="index.php" class="nav-item nav-link">Home</a>
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link">Service</a>
+                    <a href="payment.php" class="nav-item nav-link">Payment</a>
 
 
                     <a href="contact.php" class="nav-item nav-link">Contact</a>

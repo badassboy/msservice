@@ -23,7 +23,7 @@ include("header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/photo.avif" alt="">
 <!--                     <div class="bg-primary text-dark text-center p-4">
                         <h3 class="m-0">25+ Years Experience</h3>
                     </div> -->
@@ -33,19 +33,11 @@ include("header.php");
                     <!-- <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1> -->
 
                     <p class="mb-4">
-                        OUR APPROACH<br>
-Lizdan Company offers a uniquely consultative approach to purchasing and selling physical gold and silver, regardless of how much you are looking to invest. We pride ourselves on our simple and tailored strategy, working with beginners and experienced investors alike, to find the precious metal investment that will benefit them most.Whether you are looking to convert personal savings or part of your pension into physical gold or silver, we can provide a tax-efficient solution. In addition, our Buy Back Guarantee means your gold and silver investment is as liquid as the cash in your bank account
+                        We enable investors to purchase bullion they physically hold, as opposed to merely owning on paper. Since our founding, we have been the industry price leader and continue to exceed expectations through our weekly sales, fast shipping, and award-winning service. Our corporate headquarters and contact center is located in Accra Ghana , Further more our team help solve all It solutions that individual and companies may need , while our studio help produce any kind of music or sound needs by Artists, Artist managers and records labels and all It related Trading
+
                     </p>
 
-                    <p class="mb-4">
-                      DEDICATED EXPERTS<br>
-Our in-house specialists hold qualifications in Law, Accountancy, Investment Banking and Property and use their broad and extensive knowledge to deliver practical and tax-efficient solutions for our clients.   
-                    </p>
-
-                    <p class="mb-4">
-                       OUR CREDENTIALS<br>
-Lizdan Company has quickly established itself as a trusted market leader. We are members of the Royal Numismatic Association, British Numismatic Association, British Chamber of Commerce and the Information Commissioner, as well as being frequently featured in the Press including FT, Daily Mail, Reuters, WSJ, Money Week, Observer, Guardian, Your Money and others. 
-                    </p>
+                    
 
                     <div class="d-flex align-items-center pt-2">
 
@@ -78,11 +70,11 @@ Lizdan Company has quickly established itself as a trusted market leader. We are
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/choose.avif" alt="">
                 </div>
                 <div class="col-lg-7 py-5 py-lg-0">
                     <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
-                    <h1 class="mb-4">Faster, Safe and Trusted Logistics Services</h1>
+                    <h1 class="mb-4">Faster, Safe and Trusted  Services</h1>
                     <p class="mb-4">We work tirelessly round the clock with one goal in mind, to exceed the expectations of our clients. By this, we have inspired a positive perception in the minds of our clients of our business</p>
                     <ul class="list-inline">
                         <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Best In Industry</h6>

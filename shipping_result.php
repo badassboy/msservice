@@ -4,23 +4,20 @@ include("header.php");
 
 include("functions.php");
 
+$location = "";
+
 $activity = new Activities();
 
-if (isset($_POST['ship'])) {
+if (isset($_POST['search'])) {
 
-    $item = $_POST['input'];
+    $item = $_POST['user_input'];
+    // $item = "288";
+    // echo $item;
 
-    $display = $activity->shipping_seach($item);
+    $display = $activity->itemTracking($item);
+    
 
-    if (count($display)>0) {
-    	
-    	foreach ($display as $value) {
-    		$shipping_date = $value['shipping_date'];
-            $current_location = $value['current_location'];
-            $address = $value['destination_address'];
-    		
-    	}
-    }
+   
 
 
 	
@@ -56,9 +53,36 @@ if (isset($_POST['ship'])) {
 
    
    		<ul class="list-group">
-  <li class="list-group-item">Shipping Date: <?php echo $shipping_date ?></li>
-  <li class="list-group-item">Current Location: <?php echo $current_location; ?></li>
-  <li class="list-group-item">Destionation Address: <?php echo $address; ?></li>
+
+            <?php  
+
+                if (is_array($display)) {
+        
+        foreach ($display as $value) {
+            // $shipping_date = $value['shipping_date'];
+            // $current_location = $value['current_location'];
+            // $address = $value['destination_address'];
+
+
+
+            $location = $value['venue'];
+            echo '<li class="list-group-item">Current item location: '.$location.'</li>';
+            
+           
+            
+           
+            
+        }
+    }else {
+        echo '<li class="list-group-item">No result found</li>';
+    }
+             
+
+
+
+            ?>
+  
+ 
 </ul>
     
  

@@ -25,11 +25,11 @@ include("header.php");
             <div class="row">
                 <div class="col-lg-5 pb-4 pb-lg-0">
                     <div class="bg-primary text-dark text-center p-4">
-                        <h4 class="m-0"><i class="fa fa-map-marker-alt text-white mr-2"></i>123 Street, New York, USA</h4>
+                        <h4 class="m-0"><i class="fa fa-map-marker-alt text-white mr-2"></i>Dome Kwabenya</h4>
                     </div>
-                    <iframe style="width: 100%; height: 470px;"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.312094242778!2d-0.24019248573538599!3d5.667934134090712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9e960d9deeab%3A0x8acff8ae100b3f7!2sKwabenya%20Post%20Office!5e0!3m2!1sen!2sgh!4v1648661738487!5m2!1sen!2sgh" width="440" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   
                 </div>
                 <div class="col-lg-7">
                     <h6 class="text-primary text-uppercase font-weight-bold">Contact Us</h6>

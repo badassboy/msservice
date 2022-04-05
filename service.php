@@ -23,41 +23,40 @@ include("header.php");
         <div class="container">
             <div class="text-center pb-2">
                 <h6 class="text-primary text-uppercase font-weight-bold">Our Services</h6>
-                <h1 class="mb-4">Our Logistic Services</h1>
+                <h1 class="mb-4">Our  Services</h1>
             </div>
             <div class="row pb-3">
-                <div class="col-lg-3 col-md-6 text-center mb-5">
+
+              <div class="col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                        <i class="fa fa-2x fa-plane text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Air Freight</h6>
+                        <!-- <i class="fa fa-2x fa-plane text-dark pr-3"></i> -->
+                        <i class="fa fa-2x fa-laptop text-dark pr-3" aria-hidden="true"></i>
+                        <h6 class="text-white font-weight-medium m-0">IT Solution</h6>
                     </div>
-                    <p>We provide excellent documentation to facilitate the exportation of commodities abroad</p>
+                    <p>
+                        We provide all kinds of IT Solutions to the general public being Graphic Design,web design, app development and Computer Networking
+
+</p>
                     <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
                 </div>
+               
                 <div class="col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                        <i class="fa fa-2x fa-ship text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Ocean Freight</h6>
+                        <i class="fa fa-2x fa-music text-dark pr-3"></i>
+                        <h6 class="text-white font-weight-medium m-0">Music Production</h6>
                     </div>
-                    <p>e provide excellent documentation to facilitate the exportation of commodities abroad.</p>
-                    <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
-                </div>
-                <div class="col-lg-3 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                        <i class="fa fa-2x fa-truck text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Land Transport</h6>
-                    </div>
-                    <p>We provide a one stop logistics land transport for either existing or new international manufacturers/suppliers to reach their destination</p>
+                    <p>We help young and upcoming music artiste with the music production.We deal with video shooting, beat making, studio recording and many more.</p>
                     <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
                 </div>
                 <div class="col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
                         <i class="fa fa-2x fa-store text-dark pr-3"></i>
-                        <h6 class="text-white font-weight-medium m-0">Cargo Storage</h6>
+                        <h6 class="text-white font-weight-medium m-0">General Trading</h6>
                     </div>
-                    <p>We provide fast and competitive clearing of all cargoes. We clear from both the Sea and Air ports</p>
+                    <p>We deal with general buy and sell of wholesale and retails of common foreign and local gooods.</p>
                     <!-- <a class="border-bottom text-decoration-none" href="">Read More</a> -->
-                </div>
+                </div> 
+
             </div>
         </div>
     </div>
