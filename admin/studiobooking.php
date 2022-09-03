@@ -1,29 +1,29 @@
 <?php
 
 include("../functions.php");
-$ch = new Business();
+$ch = new Activities();
 
-if(isset($_POST['laliga'])){
-    $title = htmlspecialchars($_POST['title']);
-    $venue = htmlspecialchars($_POST['venue']);
-    $days = htmlspecialchars($_POST['days']);
-    $amount = htmlspecialchars($_POST['amount']);
-    $picture = $_FILES['photo']['name'];
-  // var_dump($picture);
+// if(isset($_POST['laliga'])){
+//     $title = htmlspecialchars($_POST['title']);
+//     $venue = htmlspecialchars($_POST['venue']);
+//     $days = htmlspecialchars($_POST['days']);
+//     $amount = htmlspecialchars($_POST['amount']);
+//     $picture = $_FILES['photo']['name'];
+//   // var_dump($picture);
   
 
-  if(empty($title) || empty($venue) || empty($days) || empty($amount) || empty($picture)){
-    $msg = '<div class="alert alert-danger" role="alert">Please all fields are required</div>';
-  }else {
-    $laliga = $ch->Advert($title,$venue,$picture,$amount,$days);
-    if($laliga){
-      $msg = '<div class="alert alert-success" role="alert">Advert uploaded</div>';
-    }else {
-      $msg = '<div class="alert alert-danger" role="alert">Failed in uploading advert</div>';
-    }
-  }
+//   if(empty($title) || empty($venue) || empty($days) || empty($amount) || empty($picture)){
+//     $msg = '<div class="alert alert-danger" role="alert">Please all fields are required</div>';
+//   }else {
+//     $laliga = $ch->Advert($title,$venue,$picture,$amount,$days);
+//     if($laliga){
+//       $msg = '<div class="alert alert-success" role="alert">Advert uploaded</div>';
+//     }else {
+//       $msg = '<div class="alert alert-danger" role="alert">Failed in uploading advert</div>';
+//     }
+//   }
 
-}
+// }
 // end of laliga news
 
 
@@ -98,19 +98,19 @@ if(isset($_POST['laliga'])){
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>ATSPO</h3>
+                <h3>MSSERVIE</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <p>Advertisement</p>
+                <p>STUDIO BOOKING</p>
 
 
             <li>
-                <a href="#" id="appointment" data-target="one" class="test">Upload Advert</a>
+                <!-- <a href="#" id="appointment" data-target="one" class="test">Upload Advert</a> -->
             </li>
 
             <li>
-                <a href="#" id="event" data-target="two" class="test">All Advert</a>
+                <a href="#" id="event" data-target="two" class="test">All Booking</a>
             </li>
 
          
@@ -144,16 +144,12 @@ if(isset($_POST['laliga'])){
                 </div>
             </nav>
 
-            <h2>Advertisement</h2>
+            <h4>Booking</h4>
 
             <div class="container appointment show" id="one">
               <!-- <div id="message"></div> -->
-              <?php
-                if(isset($msg)){
-                  echo $msg;
-                }
-              ?>
-                <h5>Advertisement</h5>
+              
+                <!-- <h5>Advertisement</h5>
                <form method="post" id="appoint" enctype="multipart/form-data">
 
                 <div class="form-group">
@@ -189,7 +185,7 @@ if(isset($_POST['laliga'])){
 
                 
                 <button type="submit" class="btn btn-primary" name="laliga">Submit</button>
-               </form> 
+               </form>  -->
             </div>
 
                    
@@ -211,8 +207,11 @@ if(isset($_POST['laliga'])){
             <thead>
               <tr>
                 
+                <th scope="col">Artiste</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Genre</th>
                 <th scope="col">Title</th>
-                <th scope="col">Venue</th>
+                <th scope="col">Track</th>
                 <th scope="col">Amount</th>
                 <th scope="col">Days</th>
                 <th scope="col">Action</th>
@@ -290,21 +289,27 @@ $.ajax({
 
          var action = edit.concat(" ", my_delete);
 
+         var artiste = response[i]["artiste"];
+         var mobile = response[i]["mobile"];
+         var genre = response[i]["genre"];
          var title = response[i]["title"];
 
-         var venue = response[i]["venue"];
+         var track = response[i]["track"];
        
-         var  amount = response[i]["amount"];
-         var  days = response[i]["days"];
+         var  amount = response[i]["cost"];
+         var  booking_date = response[i]["book_date"];
 
          var table_str = "<tr>" +
                       
                       
+                      "<td>" + artiste + "</td>" +
+                      "<td>" + mobile + "</td>" +
+                      "<td>" + genre + "</td>" +
                       "<td>" + title + "</td>" +
-                      "<td>" + venue + "</td>" +
+                      "<td>" + track + "</td>" +
                     
                       "<td>" + amount + "</td>" +
-                      "<td>" + days + "</td>" +
+                      "<td>" + booking_date + "</td>" +
                       "<td>" + action + "</td>" +
                       "</tr>";
 
@@ -322,20 +327,20 @@ $.ajax({
 
       });
 
-    var button = document.getElementById("upload");
-    button.addEventListener("click", function(){
+    // var button = document.getElementById("upload");
+    // button.addEventListener("click", function(){
 
-        online = window.navigator.onLine;
-
-
-        if (navigator.onLine) {
-          // console("onLine");
-        } else {
-          alert("offline");
-        }
+    //     online = window.navigator.onLine;
 
 
-    });
+    //     if (navigator.onLine) {
+    //       // console("onLine");
+    //     } else {
+    //       alert("offline");
+    //     }
+
+
+    // });
 
   
               

@@ -59,30 +59,19 @@ if (isset($_POST['search'])) {
                 if (is_array($display)) {
         
         foreach ($display as $value) {
-            // $shipping_date = $value['shipping_date'];
-            // $current_location = $value['current_location'];
-            // $address = $value['destination_address'];
-
-
-
-            $location = $value['venue'];
+            
+                $location = $value['venue'];
             echo '<li class="list-group-item">Current item location: '.$location.'</li>';
             
            
-            
-           
-            
         }
     }else {
         echo '<li class="list-group-item">No result found</li>';
     }
              
 
-
-
-            ?>
+        ?>
   
- 
 </ul>
     
  

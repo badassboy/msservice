@@ -1,0 +1,21 @@
+.control-label:after 
+{
+    content:" *";
+    color: red;
+	}
+
+
+input[type="text"], input[type="email"],input[type="date"],input[type="number"]
+{
+	width: 30%;
+}
+
+.form-group select{
+	width: 30%;
+}
+
+#myform{
+	/*margin-left: 40%;*/
+}
+
+

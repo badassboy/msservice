@@ -5,13 +5,13 @@ $db = DB();
 
 $json = array();
 
-$stmt = $db->prepare("SELECT * FROM advert");
+$stmt = $db->prepare("SELECT * FROM booking");
 $stmt->execute();
 while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
 
 	$id = $result['id'];
 	
-	$trash = '<a href="delete-advert.php?trash='.$id.'">
+	$trash = '<a href="delete-booking.php?trash='.$id.'">
 				<i class="fa fa-trash" aria-hidden="true"></i>
 			  </a>';
 	$edit = '<a href="edit-latest.php?edit='.$id.'">
@@ -22,18 +22,24 @@ while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
 
 	
 
-	$title = $result['title'];
-	$venue = $result['venue'];
-	$amount = $result['amount'];
-	$days = $result['days'];
+	$artiste_name = $result['artiste_name'];
+	$mobile = $result['mobile'];
+	$genre = $result['genre'];
+	$title = $result['song_title'];
+	$cost = $result['cost'];
+	$track = $result['tracks'];
+	$booking_date = $result['booking_date'];
 	
 
 	$json[] = array(
 		
+		"artiste" => $artiste_name,
+		"mobile" => $mobile,
+		"genre" => $genre,
 		"title" => $title,
-		"venue" => $venue,
-		"amount" => $amount,
-		"days" => $days,
+		"cost" => $cost,
+		"track" => $track,
+		"book_date" => $booking_date,
 		"edit" => $edit,
 		"delete" => $trash
 		

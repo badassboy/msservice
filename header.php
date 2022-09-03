@@ -68,8 +68,8 @@
 
                
                     <h4 class="m-0 display-5 text-uppercase text-primary">
-                        <img src="img/logo.jpg" width="170" height="170" alt="" style="margin-right: 5%;">
-    MS SERVICE & TRADE CONSULT
+                    <img src="img/logo.jpg" width="170" height="170" alt="" style="margin-right: 5%;">
+                        MS SERVICE & TRADE CONSULT
                     </h4>
                     
                     
@@ -84,6 +84,7 @@
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link">Service</a>
                     <a href="payment.php" class="nav-item nav-link">Payment</a>
+                    <a href="booking.php" class="nav-item nav-link">Studio Booking</a>
 
 
                     <a href="contact.php" class="nav-item nav-link">Contact</a>

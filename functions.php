@@ -156,10 +156,45 @@ $stmt = $dbh->prepare("INSERT INTO details(item,depositor,next_of_kin,tracking_i
 		$db = DB();
 		$stmt = $db->prepare("SELECT * FROM tracking WHERE  `track_number` LIKE '%$user_input%'");
 		$stmt->execute();
-		while($row = $stmt->fetchAll()){
+		while($row = $stmt->fetchAll())
+		{
 			return $row;
 		}
 			
+	}
+
+
+	//studio booking
+	public function studioBooking($artiste,$mobile,$email,$genre,$title,$tracks,$cost,$booking_date)
+	{
+		$db = DB();
+		$stmt = $db->prepare("INSERT INTO booking(artiste_name,mobile,email,genre,song_title,tracks,cost,booking_date) VALUES(?,?,?,?,?,?,?,?)");
+		$stmt->execute([$artiste,$mobile,$email,$genre,$title,$tracks,$cost,$booking_date]);
+		$data = $stmt->rowCount();
+		if ($data>0) {
+			return true;
+		}else {
+			return false;
+		}
+
+
+
+	}
+
+
+	public function deleteBooking($id)
+	{
+		$db = DB();
+		$stmt = $db->prepare("DELETE FROM booking WHERE id=?");
+		$stmt->execute([$id]);
+		$data = $stmt->rowCount();
+		if ($data>0) {
+			return true;
+		}else {
+			return false;
+		}
+
+
 	}
 
 
