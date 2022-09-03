@@ -1,14 +1,11 @@
 <?php 
-
 include("header.php");
 include("functions.php");
 $book = new Activities();
 
-$artiste_name = $mobile =$email = $genre = "";
 
 if (isset($_POST['book'])) {
-	
-
+    var_dump($_POST);
 	$artiste_name = $book->testInput($_POST['artiste_name']);
 	$mobile = $book->testInput($_POST['phone']);
 	$email = $book->testInput($_POST['email']);
@@ -21,16 +18,7 @@ if (isset($_POST['book'])) {
 	$user_booking = $book->studioBooking($artiste_name,$mobile,$email,$genre,$title,$tracks,$cost,$booking_date);
 	if ($user_booking) {
 		echo "<script>alert('booking successful')</script>";
-        // clear form data
-
-
-	
-
-
-		
-
-
-	}else{
+    }else{
 		echo "<script>alert('booking failed')</script>";
 
 	}
@@ -86,11 +74,11 @@ if (isset($_POST['book'])) {
             <div class="row align-items-center">
 
             <div class="col-lg-12 pb-4 pb-lg-0">
-                <h4>Fill below form to book your studio section</h4>
+                <h4 class="exp">Fill below form to book your studio section</h4>
            <form method="post" id="myform">
   <div class="form-group">
     <label class="control-label">Artiste Name</label>
-    <input type="text" class="form-control" name="artiste_name" id="artiste" placeholder="Artiste Name" required>
+    <input type="text" class="form-control" name="artiste_name"  placeholder="Artiste Name" required>
   </div>
 
   <div class="form-group">
@@ -100,7 +88,7 @@ if (isset($_POST['book'])) {
 
   <div class="form-group">
     <label>Email</label>
-    <input type="email" class="form-control" name="email" placeholder="Email" required>
+    <input type="email" class="form-control" name="email" placeholder="Email">
   </div>
 
   <div class="form-group">
@@ -152,14 +140,11 @@ if (isset($_POST['book'])) {
     </div>
     <!-- About End -->
 
- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ 
 
-    <script type="text/javascript">
-        $(document).ready(function(){
-             $('#myform').submit(function(){
-            $('#myform')[0].reset();
-        });
-    });
+
+
+
        
        
     </script>

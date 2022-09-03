@@ -18,4 +18,24 @@ input[type="text"], input[type="email"],input[type="date"],input[type="number"]
 	/*margin-left: 40%;*/
 }
 
+/*media queries*/
+
+@media only screen and (max-width: 400px) {
+
+	input[type="text"], input[type="email"],input[type="date"],input[type="number"]
+		{
+			width: 70%;
+		}
+
+		.form-group select{
+			width: 70%;
+		}
+
+		.exp {
+			font-size: 14px;
+			margin-top: -10%;
+		}
+}
+
+
 
