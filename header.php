@@ -4,13 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LIZDAN SECURITY &LOGISTICS</title>
+    <title>MSSERVICE & TRADE CONSULT</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Gold security ware house" name="LIZDAN SECURITY">
-    <meta content="Best logistics company ever" name="LIZDAN LOGISTICS">
+    <meta content="Gold security ware house" name="MSSERVICE & TRADE CONSULT">
+    <meta content="Best logistics company ever" name="MSSERVICE & TRADE CONSULT">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/Whatsapp.jpeg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -32,7 +32,7 @@
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>+233242573307</small>
+                    <small><i class="fa fa-phone-alt mr-2"></i>0548127506</small>
                     <small class="px-3">|</small>
                     <small><i class="fa fa-envelope mr-2"></i>info@msservicetradeconsult.com</small>
                 </div>
@@ -68,7 +68,7 @@
 
                
                     <h4 class="m-0 display-5 text-uppercase text-primary">
-                    <img src="img/logo.jpg" width="170" height="170" alt="" style="margin-right: 5%;">
+                    <img src="img/Whatsapp.jpeg" width="170" height="170" alt="" style="margin-right: 5%;">
                         MS SERVICE & TRADE CONSULT
                     </h4>
                     
