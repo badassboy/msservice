@@ -10,7 +10,7 @@
     <meta content="Best logistics company ever" name="MSSERVICE & TRADE CONSULT">
 
     <!-- Favicon -->
-    <link href="img/Whatsapp.jpeg" rel="icon">
+    <link href="img/WhatsApp.jpeg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -68,7 +68,7 @@
 
                
                     <h4 class="m-0 display-5 text-uppercase text-primary">
-                    <img src="img/Whatsapp.jpeg" width="170" height="170" alt="" style="margin-right: 5%;">
+                    <img src="img/WhatsApp.jpeg" width="170" height="170" alt="" style="margin-right: 5%;">
                         MS SERVICE & TRADE CONSULT
                     </h4>
                     
