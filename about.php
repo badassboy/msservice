@@ -5,7 +5,7 @@ include("header.php");
 ?>
 
     <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid mb-5">
+    <div class="jumbotron jumbotron-fluid about mb-5">
         <div class="container text-center py-5">
             <h1 class="text-white display-3">About</h1>
             <div class="d-inline-flex align-items-center text-white">
