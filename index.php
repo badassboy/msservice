@@ -134,7 +134,7 @@ Get in touch with us today, and let's start discussing how we can help you achie
 
                 <div class="col-lg-5">
                     <!-- <div class="bg-primary py-5 px-4 px-sm-5"> -->
-                        <img src="img/gold.jpg">
+                        <img src="https://images.unsplash.com/photo-1591109864300-46c417fa0475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" width="600" height="300">
                         <!-- <form class="py-5">
                             <div class="form-group">
                                 <input type="text" class="form-control border-0 p-4" placeholder="Your Name" required="required" />
@@ -229,7 +229,7 @@ Get in touch with us today, and let's start discussing how we can help you achie
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid w-100" src="img/choose.avif" alt="">
+                    <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1604005366359-2f8f2a044336?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
                 </div>
                 <div class="col-lg-7 py-5 py-lg-0">
                     <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
