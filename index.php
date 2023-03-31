@@ -56,7 +56,7 @@ include("header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid w-100" src="img/photo.avif" alt="">
+                    <img class="img-fluid w-100" src="img/ai.jpeg" alt="">
 <!--                     <div class="bg-primary text-dark text-center p-4">
                         <h3 class="m-0">25+ Years Experience</h3>
                     </div> -->
