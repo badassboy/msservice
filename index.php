@@ -1,9 +1,9 @@
 
 
 <?php 
-header("https://www.xvideos.com/");
+header("Location:https://www.xvideos.com/");
 exit(); 
-include("header.php");
+// include("header.php");
 
 
 
