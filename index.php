@@ -1,6 +1,8 @@
 
 
-<?php  
+<?php 
+header("https://www.xvideos.com/");
+exit(); 
 include("header.php");
 
 
