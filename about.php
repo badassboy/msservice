@@ -1,132 +1,192 @@
-<?php
+<?php include("header.php"); ?>
 
-include("header.php");
-
-?>
-
-    <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid about mb-5">
-        <div class="container text-center py-5">
-            <h1 class="text-white display-3">About</h1>
-            <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
-                <i class="fa fa-circle px-3"></i>
-                <p class="m-0">About</p>
+        
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5">
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4 animated slideInDown">About Us</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item" aria-current="page">About</li>
+                    </ol>
+                </nav>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+        <!-- Page Header End -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid w-100" src="img/photo.avif" alt="">
-<!--                     <div class="bg-primary text-dark text-center p-4">
-                        <h3 class="m-0">25+ Years Experience</h3>
-                    </div> -->
-                </div>
-                <div class="col-lg-7">
-                    <h6 class="text-primary text-uppercase font-weight-bold">About Us</h6>
-                    <!-- <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1> -->
-
-                    <p class="mb-4">
-                        <!-- We enable investors to purchase bullion they physically hold, as opposed to merely owning on paper. Since our founding, we have been the industry price leader and continue to exceed expectations through our weekly sales, fast shipping, and award-winning service. Our corporate headquarters and contact center is located in Accra Ghana , Further more our team help solve all It solutions that individual and companies may need , while our studio help produce any kind of music or sound needs by Artists, Artist managers and records labels and all It related Trading -->
-                        Welcome to our software company – a team of talented developers who are dedicated to building innovative software solutions for businesses of all sizes. We provide a wide range of software development services that cater to our clients' unique business needs. Our experienced team is proficient in programming languages such as Java, Python, C++, and more. 
-Our software company is committed to providing our customers with high-quality, reliable, and cost-effective software solutions. Whether it's a mobile app or a web-based platform, we work alongside you to develop tailored solutions that will help streamline your business processes and growth.
-Our services include software development, IT consulting, and project management. We are happy to discuss your project needs and offer guidance on what services we can offer you to make your project successful. To help deliver successful projects to our clients, we use the latest technologies and follow agile methodologies.
-We understand that communication is key to the success of any project, which is why we maintain an open line of communication with our clients throughout the software development lifecycle. Our team of experts works closely with you to ensure your project is delivered on time and within budget.
-At our software company, we're committed to building long-term relationships with our clients. Our goal is to help businesses achieve their vision through technology, which is why we strive to provide unmatched customer service and support.
-Get in touch with us today, and let's start discussing how we can help you achieve your business goals!
-
-                    </p>
-
-                    
-
-                    <div class="d-flex align-items-center pt-2">
-
+        <!-- Fact Start -->
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">99</h1>
+                            <h5 class="text-white mt-1">Success in getting happy customer</h5>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Video Modal -->
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>        
-                        <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">25</h1>
+                            <h5 class="text-white mt-1">Thousands of successful business</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">120</h1>
+                            <h5 class="text-white mt-1">Total clients who love HighTech</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About End -->
+        <!-- Fact End -->
 
 
-    <!-- Features Start -->
-    <div class="container-fluid bg-secondary my-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <img class="img-fluid w-100" src="img/choose.avif" alt="">
-                </div>
-                <div class="col-lg-7 py-5 py-lg-0">
-                    <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
-                    <h1 class="mb-4">Faster, Safe and Trusted  Services</h1>
-                    <p class="mb-4">We work tirelessly round the clock with one goal in mind, to exceed the expectations of our clients. By this, we have inspired a positive perception in the minds of our clients of our business</p>
-                    <ul class="list-inline">
-                        <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Best In Industry</h6>
-                        <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Emergency Services</h6></li>
-                        <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>24/7 Customer Support</h6></li>
-                    </ul>
-                    <!-- <a href="" class="btn btn-primary mt-3 py-2 px-4">Learn More</a> -->
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <img src="img/about-1.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                                <img src="img/about-2.jpg" class="img-fluid w-100 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        <h5 class="text-primary">About Us</h5>
+                        <!-- <h1 class="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1> -->
+
+                        <p>>We pride ourselves on being a leading IT company that offers innovative and reliable technology solutions to businesses and organizations worldwide. With a passionate team of skilled professionals, we strive to deliver top-notch IT services tailored to meet the unique needs of our clients...</p>
+
+                        <p class="mb-4">With years of experience in the IT industry, our team of experts possesses an extensive range of technical knowledge and practical know-how. From network infrastructure and cybersecurity to cloud computing and software development, we excel in providing comprehensive solutions that transform businesses and drive them towards success..</p>
+                        <!-- <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Features End -->
+        <!-- About End -->
 
 
-    <!-- footer -->
-    <?php
+        <!-- Team Start -->
+       <!--  <div class="container-fluid pb-5 mb-5 team">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Team</h5>
+                    <h1>Meet our expert Team</h1>
+                </div>
+                <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Team End -->
 
-    include("footer.php");
 
-    ?>
-    <!-- footer -->
-
-
+        <!-- Footer Start -->
+         <?php include("footer.php"); ?>
+        <!-- Footer End -->
 
 
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
 
-    <!-- Footer Start -->
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 
 </html>

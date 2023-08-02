@@ -3,8 +3,8 @@ session_start();
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-require_once("../functions.php");
-$ch = new Activities();
+require_once("auth.php");
+$ch = new Auth();
 
 $info = "";
 if (isset($_POST['login'])) {

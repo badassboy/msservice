@@ -1,29 +1,29 @@
 <?php
 
-include("../functions.php");
-$ch = new Activities();
+include("products.php");
+$ch = new Products();
 
-// if(isset($_POST['laliga'])){
-//     $title = htmlspecialchars($_POST['title']);
-//     $venue = htmlspecialchars($_POST['venue']);
-//     $days = htmlspecialchars($_POST['days']);
-//     $amount = htmlspecialchars($_POST['amount']);
-//     $picture = $_FILES['photo']['name'];
-//   // var_dump($picture);
+if(isset($_POST['laliga'])){
+    $title = $_POST['title'];
+    $brand = $_POST['brand'];
+    $amount = $_POST['amount'];
+    $picture = $_FILES['photo']['name'];
+    $description = $_POST['description'];
+  // var_dump($picture);
   
 
-//   if(empty($title) || empty($venue) || empty($days) || empty($amount) || empty($picture)){
-//     $msg = '<div class="alert alert-danger" role="alert">Please all fields are required</div>';
-//   }else {
-//     $laliga = $ch->Advert($title,$venue,$picture,$amount,$days);
-//     if($laliga){
-//       $msg = '<div class="alert alert-success" role="alert">Advert uploaded</div>';
-//     }else {
-//       $msg = '<div class="alert alert-danger" role="alert">Failed in uploading advert</div>';
-//     }
-//   }
+  if(empty($title) || empty($brand)  || empty($amount) || empty($picture)){
+    $msg = '<div class="alert alert-danger" role="alert">Please all fields are required</div>';
+  }else {
+    $laliga = $ch->ProductUpload($picture,$title,$amount,$brand,$description);
+    if($laliga){
+      $msg = '<div class="alert alert-success" role="alert">Upload Successful</div>';
+    }else {
+      $msg = '<div class="alert alert-danger" role="alert">Upload Failed</div>';
+    }
+  }
 
-// }
+}
 // end of laliga news
 
 
@@ -98,19 +98,19 @@ $ch = new Activities();
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>MSSERVIE</h3>
+                <h3>MSSERVICE</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <p>STUDIO BOOKING</p>
+                <p>PRODUCTS</p>
 
 
             <li>
-                <!-- <a href="#" id="appointment" data-target="one" class="test">Upload Advert</a> -->
+                <a href="#" id="appointment" data-target="one" class="test">Upload Advert</a>
             </li>
 
             <li>
-                <a href="#" id="event" data-target="two" class="test">All Booking</a>
+                <a href="#" id="event" data-target="two" class="test">All Products</a>
             </li>
 
          
@@ -144,48 +144,57 @@ $ch = new Activities();
                 </div>
             </nav>
 
-            <h4>Booking</h4>
+            <h4>Products</h4>
 
             <div class="container appointment show" id="one">
-              <!-- <div id="message"></div> -->
+              <div id="message"></div>
               
-                <!-- <h5>Advertisement</h5>
+                <h5>
+                    <?php if (isset($msg)) {
+                        echo $msg;
+                    }?>
+                </h5>
                <form method="post" id="appoint" enctype="multipart/form-data">
 
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Title</label>
+                <div class="form-row">
+
+                    <div class="form-group col-md-6">
+                         <label for="exampleFormControlInput1">Title/product name</label>
         <input type="text" name="title" class="form-control" id="exampleFormControlInput1" placeholder="Title" required>
-                  </div>
+                </div>
 
-                  <div class="form-group">
-                      <label for="exampleFormControlInput1">Venue</label>
-          <input type="text" name="venue" class="form-control" id="exampleFormControlInput1" placeholder="Venue" required>
-                    </div>
+                 <div class="form-group col-md-6">
+                         <label for="exampleFormControlInput1">Brand</label>
+        <input type="text" name="brand" class="form-control" id="exampleFormControlInput1" placeholder="Title" required>
+                </div>
 
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Days</label>
-        <input type="number" min="1" name="days" class="form-control" id="exampleFormControlInput1" placeholder="Vacation Days" required>
-                  </div>
+                      
+                    
+                </div>
 
-            <div class="form-group">
+                <div class="form-row">
+
+                   <div class="form-group col-md-6">
                 <label for="exampleFormControlInput1">Amount</label>
     <input type="number" min="1" name="amount" class="form-control" id="exampleFormControlInput1" placeholder="Amount" required>
               </div>
 
-
-
-
-
-                
-
-                 <div class="form-group">
-                   <label>Picture</label>
+          <div class="form-group col-md-6">
+           <label>Picture</label>
                 <input type="file" name="photo" class="form-control-file" id="upload" required>
+          </div> 
+
+                </div>
+
+              <div class="form-group">
+
+                    <label for="exampleFormControlTextarea1">Description</label>
+    <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
                    </div>
 
                 
                 <button type="submit" class="btn btn-primary" name="laliga">Submit</button>
-               </form>  -->
+               </form> 
             </div>
 
                    

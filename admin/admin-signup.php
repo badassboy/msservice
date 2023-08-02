@@ -1,7 +1,7 @@
 <?php
 
-include("../functions.php");
-$ch = new Activities();
+include("auth.php");
+$ch = new Auth();
 
 $msg = "";
 
@@ -10,10 +10,10 @@ if (isset($_POST['signup'])) {
 
 	
 	// $email = trim($_POST['email']);
-	$username = $ch->testInput($_POST['username']);
-	$email = $ch->testInput($_POST['email']);
-	$password = $ch->testInput($_POST['password']);
-	$password2 = $ch->testInput($_POST['password2']);
+	$username = trim($_POST['username']);
+	$email = trim($_POST['email']);
+	$password = trim($_POST['password']);
+	$password2 = trim($_POST['password2']);
 
 
 	if (!empty($username) || !empty($password) || !empty($password2)) {
@@ -25,8 +25,10 @@ if (isset($_POST['signup'])) {
 			
 
 			if ($admin_id==1) {
+				header("Location:homepage.php");
+				exit();
 
-	$msg = '<div class="alert alert-success" role="alert">Registration successful.Visit login page to login</div>';
+	// $msg = '<div class="alert alert-success" role="alert">Registration successful.Visit login page to login</div>';
 
 			// $ch->sendEmail($email);
 
