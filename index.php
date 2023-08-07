@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 class="text-primary">About Us</h5>
-                        <h1 class="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
+                        <!-- <h1 class="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1> -->
                         <p>We pride ourselves on being a leading IT company that offers innovative and reliable technology solutions to businesses and organizations worldwide. With a passionate team of skilled professionals, we strive to deliver top-notch IT services tailored to meet the unique needs of our clients..</p>
 
                         <p class="mb-4">With years of experience in the IT industry, our team of experts possesses an extensive range of technical knowledge and practical know-how. From network infrastructure and cybersecurity to cloud computing and software development, we excel in providing comprehensive solutions that transform businesses and drive them towards success.</p>
