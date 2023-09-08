@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>HighTech - IT Solutions Website Template</title>
+        <title>Mstc Technology</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="d-flex justify-content-between topbar">
                     <div class="top-info">
-                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Dome Kwabenya, around Post Office</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Accra , Ghana lakeside estate </small>
                         <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>info@msservicentrade.com</small>
                     </div>
                     <!-- <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div> -->
@@ -59,7 +59,7 @@
         <div class="container-fluid bg-primary">
             <div class="container">
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
-                    <a href="index.html" class="navbar-brand">
+                    <a href="index.php" class="navbar-brand">
                         <h3 class="text-white fw-bold d-block">Mstc<span class="text-secondary">Technology</span> </h3>
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

@@ -6,18 +6,14 @@ require("db.php");
 class Auth {
 
 
-	public function registerAdmin($email, $password)
+	public function registerAdmin($username,$email, $password)
 			
 	{
 		$dbh = DB();
-		$stmt = $dbh->prepare("INSERT INTO admin(username,email,password) VALUES(?,?)");
-		$stmt->execute([$email,$password]);
-		$data = $stmt->rowCount();
-		if ($data>0) {
-			return true;
-		}else{
-			return false;
-		}
+		$stmt = $dbh->prepare("INSERT INTO admin(username,email,password) VALUES(?,?,?)");
+		$stmt->execute([$username,$email,$password]);
+		return $stmt->rowCount();
+		
 
 
 
@@ -27,7 +23,7 @@ class Auth {
 	public function loginAdmin($email,$password)
 	{
 		$dbh = DB();
-		$stmt = $db->prepare("SELECT email,password FROM admin WHERE email = ?");
+		$stmt = $dbh->prepare("SELECT email,password FROM admin WHERE email = ?");
 		$stmt->execute([$email]);
 		$data = $stmt->fetch(PDO::FETCH_ASSOC);
 		
