@@ -29,11 +29,7 @@ class Auth {
 		
 		
 		if($stmt->rowCount()>0){
-			if (password_verify($password, $data['password'])) {
-				return true;
-			}else {
-				return false;
-			}
+		return password_verify($password, $data["password"]);
 			//return password_verify($password, $data['password']);
 		}else {
 			return false;
